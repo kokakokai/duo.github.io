@@ -467,6 +467,9 @@
     .s10_right .jisa .txt .juso{
         font-size: 22px;
     }
+    .s10_right .jisa .txt .arrow{
+        width: 25px;
+    }
     .s10_right .jisa .txt .arrow img{
         width: 100px;
         margin-top: 10px;
