@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="desktop.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
 
@@ -331,7 +335,11 @@
                     듀오 CEO<br>
                     <b>박수경</b> 대표
                 </h4>
-                <img src="img/s7_pro.png" alt="">
+
+                <div class="thumb">
+                    <img src="img/s7_pro.png" alt="">
+                </div>
+
                 <ul class="list pc">
                     <li>서울대학교 총동창회 부회장</li>
                     <li>세계여성이사협회 이사</li>
@@ -380,7 +388,7 @@
 
                     <li data-aos="fade-up">
                         <a href="#">
-                            박수경 듀오정보 대표 “저출산 대책?..<br>
+                            박수경 듀오정보 대표 “저출산 대책? 여성이 일하기 좋은 사회가 우선<br>
                             <span>2024.01.19 뉴시스</span>
                         </a>
                     </li>
@@ -905,136 +913,6 @@
     </footer>
 
     
-    <script src="jquery-3.7.1.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        AOS.init();
-        $('.btn_menu').click(function(){
-            $('nav').animate({right: "0%"});
-        });
-
-        $(".btn-close").click(function(){
-            $("nav").animate({right: "-105%"});
-        });
-
-        // $('.navi>li').click(function(){
-        //     $(this).find('.sub').stop().slideDown(500);
-        // })
-
-        $(document).ready(function(){
-            $(".navi>li>a").click(function(){
-                $(this).next('.sub').slideToggle();
-                $('.sub').not($(this).next('.sub')).slideUp();
-            });
-        });
-
-        $(document).ready(function(){
-            const targetNumber = 37407;
-            const duration = 1000;
-            const frameRate = 20;
-            const increment = Math.ceil(targetNumber / (duration / frameRate));
-
-            let currentNumber = 0;
-
-            function updateCounter() {
-                currentNumber += increment;
-                if (currentNumber > targetNumber) {
-                    currentNumber = targetNumber;
-                }
-
-                $('#memberCount1').text(currentNumber.toLocaleString() + '명');
-
-                if (currentNumber < targetNumber) {
-                    setTimeout(updateCounter, frameRate);
-                }
-            }
-
-            updateCounter();
-        });
-
-        $(document).ready(function(){
-            const targetNumber = 49696;
-            const duration = 1000;
-            const frameRate = 60;
-            const increment = Math.ceil(targetNumber / (duration / frameRate));
-
-            let currentNumber = 0;
-
-            function updateCounter() {
-                currentNumber += increment;
-                if (currentNumber > targetNumber) {
-                    currentNumber = targetNumber;
-                }
-
-                $('#memberCount2').text(currentNumber.toLocaleString() + '명');
-
-                if (currentNumber < targetNumber) {
-                    setTimeout(updateCounter, frameRate);
-                }
-            }
-
-            updateCounter();
-        });
-
-        $(document).ready(function(){
-            const targetNumber = 5757;
-            const duration = 1000;
-            const frameRate = 20;
-            const increment = Math.ceil(targetNumber / (duration / frameRate));
-
-            let currentNumber = 0;
-
-            function updateCounter() {
-                currentNumber += increment;
-                if (currentNumber > targetNumber) {
-                    currentNumber = targetNumber;
-                }
-
-                $('#memberCount3').text(currentNumber.toLocaleString() + '명');
-
-                if (currentNumber < targetNumber) {
-                    setTimeout(updateCounter, frameRate);
-                }
-            }
-
-            updateCounter();
-        });
-
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1.2,
-            spaceBetween: 12,
-            breakpoints: {
-                500: {
-                    slidesPerView: 2.2,
-                    spaceBetween: 12,
-                },
-                768: {
-                    slidesPerView: 3.2,
-                    spaceBetween: 20,
-                },
-
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 24,
-                }
-            },
-        });
-
-        $(document).ready(function(){
-            $('.jisa').hide();
-            $(".jisa:first").show().css({'opacity': 1, 'transform' : 'translateY(0)'});
-            $('.tab-link:first').addClass('active');
-
-            $('.tab-link').click(function(){
-                $('.tab-link').removeClass('active');
-                $('.jisa').hide().css({'opacity': 0, 'transform': 'translateY(50px)'});
-
-                var city = $(this).data('city');
-                $('#' + city).show().animate({ opacity: 1, top: 0 }, 600).css('transform', 'translateY(0)');
-                $(this).addClass('active');
-            });
-        });
-    </script>
+    
 </body>
 </html>

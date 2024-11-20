@@ -72,8 +72,8 @@ header .gnb{
 }
 header .menu{
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     right: -200%;
     background-color: rgba(0,0,0,0.3);
@@ -94,8 +94,9 @@ header .menu .btn-close{
     width: 15%;
     background-color: #fff;
     border-radius: 50%;
-    margin-left: 6px;
-    margin-top: 10px;
+    position: absolute;
+    top: 10px;
+    left: 6px;
     max-width: 60px;
 }
 header .menu .btn-close img{

@@ -49,8 +49,7 @@
         margin-left: unset;
         margin-top: 20px;
         width: 100px;
-        position: absolute;
-        left: 52%;
+        position: 20px;
     }
     header .menu .navi>li>a{
         font-size: 24px;
@@ -180,7 +179,7 @@
         margin: 0 auto;
     }
     .s3 h3{
-        font-size: 44px;
+        font-size: 36px;
         text-align: unset;
         
     }
@@ -194,7 +193,7 @@
         width: 1300px;
     }
     .s4 h3{
-        font-size: 44px;
+        font-size: 36px;
         text-align: unset;
     }
     .s4 img{
@@ -266,20 +265,27 @@
         display: flex;
         align-items: center;
     }
-    .s7 img{
+    .s7 .thumb{
+        padding: 0 10px;
+    }
+    .s7 .thumb img{
         width: 394px;
     }
     .s7 h4{
-        font-size: 40px;
+        font-size: 36px;
         color: #fff;
         font-weight: 540;
         margin-left: 228px;
+    }
+    .s7 .list{
+        padding-left: 20px;
+        margin-top: 20px;
     }
     .s7 .list li{
         list-style: disc;
         color: #fff;
         font-size: 18px;
-        margin-right: 170px;
+        
     }
     .s7 .news{
         margin: unset;
@@ -289,6 +295,10 @@
         padding: 30px 20px;
         margin: unset;
         width: 408px;
+
+    }
+    s7 .news li a{
+        height: 81px;
     }
     .s7 .news li:first-child{
         position: absolute;
@@ -299,7 +309,7 @@
     .s7 .news li:nth-child(2){
         position: absolute;
         top: 0px;
-        right: 12px;
+        right: 60px;
         border-bottom-left-radius: unset;
     }
     .s7 .news li:nth-child(3){
@@ -311,7 +321,7 @@
     .s7 .news li:last-child{
         position: absolute;
         bottom: 0px;
-        right: 12px;
+        right: 60px;
         border-top-left-radius: unset;
     }
     .s7 .news li:first-child::after{
