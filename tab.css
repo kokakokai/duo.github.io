@@ -1,303 +1,269 @@
 @media all and (min-width: 768px){
-    .m{display: none;}
     .pc{display: none;}
+    .m{display: none;}
     .tab{display: block;}
-    header{
-        padding: 10px 12px 30px;
+
+    header .wrap{
+        padding: 20px 16px;
     }
     header .logo{
-        width: 12%;
+        width: 20%;
     }
-    header .btn{
+    header .hd_sub ul{
+        gap: 62px;
+        padding: 0 30px;
+    }
+    header .hd_sub ul li{
+        padding: unset;
+        width: 100%;
+    }
+    header .hd_sub .btn_search{
+        width: 10%;
+    }
+    header .hd_sub .btn_shop{
+        width: 10%;
+    }
+    header .hd_sub .btn_menu{
+        width: 10%;
+    }
+    header .gnb .btn-close{
+        width: 7%;
+    }
+    header .gnb .menu{
+        
+        padding: 0 30px;
+        background-color: #fff;
+        /* z-index: 1; */
+    }
+    header .gnb .menu .upmenu{
+        margin-top: 50px;
+        /* padding: 0 50px; */
         gap: 30px;
     }
-    header .btn .btn_mypage{
-        width: 20%;
-    }
-    header .btn .btn_menu{
-        width: 20%;
-    }
-    header .menu .navi{
-        width: 50%;
-    }
-    header .menu .btn-close{
-        left: 12px;
-        max-width: 70px;
-    }
-    header .menu .navi>li{
-        margin-bottom: 50px;
-    }
-    header .menu .navi>li>a{
-        font-size: 20px;
-    }
-    header .menu .navi .sub li{
+    header .gnb .menu .upmenu li{
         font-size: 16px;
     }
+    header .gnb .menu .upmenu li:first-child::after{
+        right: -17px;
+    }
+    header .gnb .menu .navi{
+        padding: 65px 0;
+    }
+    header .gnb .menu .navi>li{
+        margin-top: 50px;
+    }
+    header .gnb .menu .navi>li a{
+        font-size: 20px;
+    }
+    header .gnb .menu .navi .sub>li>a{
+        font-size: 18px;
+    }
+    header .gnb .menu .navi .submenu li a{
+        font-size: 18px;
+    }
+    .banner .swiper-slide img{
+        width: 100%;
+    }
     .s1{
-        display: flex;
+        padding: 30px 16px;
     }
-    .s1_left{
-        width: 50%;
-        height: 550px;
-    }
-    .s1_left .wrap{
-        margin: 0 auto;
-        height: 100%;
-    }
-    .s1_left h2{
-        font-size: 24px;
-        margin-top: 40px;
-    }
-    .s1_left h2 span{
-        font-size: 32px;
-    }
-    .s1_left .btn1 .txt{
-        font-size: 24px;
-        padding: 15px 0;
-    }
-    .s1_left .btn1 .arrow img{
-        width: 23px;
-    }
-    .s1_left .s1_img1{
-        height: auto;
-        margin: 0 auto;
-    }
-    .s1_right{
-        width: 50%;
-        height: 550px;
+    .s1 .swiper-slide{
+        width: 25%;
     }
     
-    .s1_right .wrap{
-        margin: 0 auto;
-        height: 100%;
+    .s2{
+        padding: 30px 16px;
     }
-    .s1_right h2{
-        font-size: 24px;
+    .s2 .all{
+        font-size: 16px;
     }
-    .s1_right h2 span{
-        font-size: 32px;
+    .s2 h2{
+        font-size: 28px;
+        color: #333;
     }
-    .s1_right .btn2 .txt{
-        font-size: 24px;
-        padding: 15px 0;
+    .s2 .swiper-wrapper{
+        margin-top: 30px;
     }
-    .s1_right .btn2 .arrow img{
-        width: 23px;
+    .s2 .swiper-slide{
+        width: 33%;
     }
-    .s1_right .s1_img2{
-        height: auto;
-        margin: 0 auto;
+    .s2 .swiper-slide a .textbox p{
+        font-size: 18px;
+        height: 60px;
     }
-    .s2 .txt{
-        text-align: unset;
-        margin: 0 auto;
-
+    .s2 .swiper-slide a .textbox .txt{
+        font-size: 22px;
     }
-    .s2 .txt ul{
-        display: flex;
-        justify-content: center;
-        
+    .s2 .swiper-slide a .textbox .txt span{
+        font-size: 18px;
     }
-    .s2 .txt ul li{
-        margin-left: 105px;
-        margin-bottom: unset;
-    }
-    .s2 .txt ul li:first-child{
-        margin-left: 0px;
-    }
-    .s2 .txt li h4{
-        font-size: 2.5vw;
-    }
-    .s2 .txt li span{
-        font-size: 3vw;
+    .s2 .wrap a>p{
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: end;
     }
     .s3{
-        padding: 50px 16px;
+        padding: 30px 16px;
     }
-    .s3 .wrap{
-        margin: 0 auto;
-        width: 736px;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        gap: 16px;
+    .s3 h2{
+        font-size: 28px;
     }
-    .s3 h3{
+    .s3 .tab .tabmenu{
+        width: 920px;
+        /* margin-bottom: 10px; */
+    }
+    .s3 .tab button{
+        font-size: 18px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .s3 .swiper-wrapper{
+        margin-top: 30px;
+    }
+    .s3 .swiper-slide{
+        width: 33%;
+    }
+    .s3 .swiper-slide a .textbox p{
+        font-size: 18px;
+        height: 60px;
+    }
+    .s3 .swiper-slide a .textbox .txt{
+        font-size: 22px;
+    }
+    .s3 .swiper-slide a .textbox .txt span{
         font-size: 18px;
     }
     .s4{
-        padding: 50px 16px;
+        padding: 30px 16px;
     }
-    .s4 .wrap{
-        width: 736px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
+    .s4 h2{
+        font-size: 28px;
+    }
+    .s4 .con{
         gap: 16px;
     }
-    .s4 .h3{
-        font-size: 24px;
+    .s4 .con .box a img{
+        height: 90px;
+        width: auto;
+    }
+    .s4 .con .box a .tit{
+        
+        font-size: 16px;
     }
     .s5{
-        padding: 50px 16px;
+        padding: 30px 16px;
     }
     .s5 h2{
         font-size: 28px;
     }
-    .s5 .uptitle h4{
-        font-size: 24px;
+    .s5 .textbox_1{
+        padding: 20px 50px;
     }
-    .s5 .upbody{
-        font-size: 18px;
-        height: 160px;
-    }
-    .s6{
-        padding: 50px 16px;
-    }
-    .s6 p{
+    .s5 .textbox_1 h3{
         font-size: 20px;
+        height: 70px;
     }
-    .s6 h3{
-        font-size: 28px;
-    }
-    .s7{
-        padding: 50px 16px;
-    }
-    .s7 img{
-        width: 50%;
-    }
-    .s7 .intro h4{
-        font-size: 5vw;
-    }
-    .s7 .intro .list li{
-        font-size: 2.5vw;
-    }
-    .s7 .news li{
-        font-size: 3vh;
-    }
-    .s7 .news li span{
+    .s5 .textbox_1 p{
         font-size: 18px;
     }
-    .s8 h2{
-        font-size: 28px;
+    .s5 .textbox_1 a{
+        width: 20%;
     }
-    .s8 .con{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
+    .s5 .textbox_2{
+        padding: 20px 50px;
     }
-    .s8 .video:nth-child(5){
-        margin-bottom: unset;
+    .s5 .textbox_2 h3{
+        font-size: 20px;
+        height: 70px;
     }
-    .s8 .video p{
+    .s5 .textbox_2 p{
         font-size: 18px;
     }
-    .s9{
-        padding: 50px 16px;
+    .s5 .textbox_2 a{
+        width: 20%;
     }
-    .s9 h2{
-        font-size: 28px;
-
+    .s5 .textbox_3{
+        padding: 20px 50px;
     }
-    .s9 .box{
-        margin-bottom: 14px;
+    .s5 .textbox_3 h3{
+        font-size: 20px;
+        height: 70px;
     }
-    .s9 .box:nth-child(7),
-    .s9 .box:nth-child(8),
-    .s9 .box:last-child{
-        margin-bottom: 0;
-    }
-    .s9 .con{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
-    .s10_left{
-        padding: 50px 16px;
-    }
-    .s10_left h2{
-        font-size: 28px;
-    }
-    .s10_left .con{
-        grid-template-columns: repeat(5, 1fr);
-        gap: 16px;
-    }
-    .s10_left .con .btn{
-        margin-bottom: 14px;
-    }
-    .s10_left .con .btn:nth-child(11),
-    .s10_left .con .btn:nth-child(12){
-        margin-bottom: 0;
-    }
-    .s10_left .con button{
-        font-size: 24px;
-    }
-    .s10_right{
-        padding: 0 16px;
-    }
-    .s10_right .jisa .txt{
-        gap: 16px;
-        height: 100px;
-    }
-    .s10_right .jisa .txt a{
-        font-size: 24px;
-    }
-    .s10_right .jisa .txt .juso{
+    .s5 .textbox_3 p{
         font-size: 18px;
     }
-    .s10_right .jisa .txt .arrow img{
-        width: 30px;
-        margin-top: 10px;
-    }
-    @media all and (min-width:1000px){
-        .s10{
-            display: flex;
-            
-        }
-        .s10_left{
-            width: 50%;
-            padding: 50px 16px;
-        }
-        .s10_left .con{
-            grid-template-columns: repeat(4, 1fr);
-        }
-        .s10_left .con .btn:nth-child(11),
-        .s10_left .con .btn:nth-child(12){
-            margin-bottom: 14px;
-        }
-        .s10_right{
-            width: 50%;
-            padding-bottom: 50px;
-        }
+    .s5 .textbox_3 a{
+        width: 20%;
     }
     footer{
-        padding: 50px 16px;
+        padding: 30px 16px;
     }
-    footer .logo{
-        gap: 16px;
+    footer .customer{
+        padding-bottom: 30px;
     }
-    footer .logo img{
-        width: 100px;
+    footer .customer h4{
+        font-size: 20px;
     }
-    footer .logo p{
-        font-size: 18px;
-    }
-    footer .logo p span{
-        font-size: 22px;
-    }
-    footer .txt{
-        font-size: 14px;
-    }
-    footer .ft_menu ul{
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-    }
-    footer .ft_menu ul li{
+    footer .customer p{
         font-size: 16px;
     }
-    footer .sns ul li{
-        width: 6%;
+    footer .text{
+        /* display: flex; */
+        gap: 50px;
     }
-    
+    footer .txt{
+        display: block;
+        margin-top: 30px;
+    }
+    footer .numbers{
+        gap: 50px;
+        margin-top: 10px;
+    }
+    footer .number{
+        font-size: 18px;
+        width: max-content;
+    }
+    footer .txt2{
+        margin-top: 30px;
+    }
+    footer .txt2 .btn_flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    footer .txt2 .btn{
+        /* gap: 16px; */
+        margin-top: unset;
+        font-size: 18px;
+    }
+    footer .sub{
+        padding: 30px 0;
+    }
+    footer .sub li{
+        font-size: 16px;
+        
+    }
+    footer .bottom{
+        padding-top: 30px;
+    }
+    footer .bottom .ftlogo{
+        width: 30%;
+    }
+    footer .bottom h4{
+        font-size: 22px;
+    }
+    footer .bottom p{
+        font-size: 14px;
+    }
+    footer .copy{
+        font-size: 14px;
+    }
+    footer .sns{
+        gap: 16px;
+    }
+    footer .sns li{
+        width: 10%;
+        padding: 0 20px;
+    }
 }
